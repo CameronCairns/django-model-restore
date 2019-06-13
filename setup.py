@@ -13,7 +13,7 @@ NAME = "django-model-restore"
 
 
 INSTALL_REQUIRES = ["django>=1.11,!=2.0.*"]
-PYTHON_REQUIRES = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*"
+PYTHON_REQUIRES = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*"
 
 KEYWORDS = ["django", "soft-delete", "models"]
 CLASSIFIERS = [
@@ -31,7 +31,6 @@ CLASSIFIERS = [
     "Programming Language :: Python :: 2",
     "Programming Language :: Python :: 2.7",
     "Programming Language :: Python :: 3",
-    "Programming Language :: Python :: 3.4",
     "Programming Language :: Python :: 3.5",
     "Programming Language :: Python :: 3.6",
     "Programming Language :: Python :: 3.7",
