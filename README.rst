@@ -1,3 +1,7 @@
+.. image:: https://dev.azure.com/cameroncairns/django-model-restore/_apis/build/status/CameronCairns.django-model-restore?branchName=master
+   :target: https://dev.azure.com/cameroncairns/django-model-restore/_build?definitionId=1
+   :alt: CI Status
+
 Django Model Restore: Soft Delete without surprises
 
 This project aims to implement soft delete in Django without some of the
