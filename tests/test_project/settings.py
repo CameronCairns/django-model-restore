@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     # migration command and then rename it back to tests.test_app so you can
     # continue to use the tests
     'tests.test_app',
+    'django_model_restore',
 ]
 
 MIDDLEWARE = [

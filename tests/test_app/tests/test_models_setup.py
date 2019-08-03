@@ -3,9 +3,6 @@ Basic tests around the setup of the app being successful
 
 Want to assert starting assumptions of state of fixtures
 """
-import pytest
-
-
 from .. import models
 
 from .fixtures import (
