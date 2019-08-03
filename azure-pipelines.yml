@@ -10,24 +10,18 @@ pool:
   vmImage: 'ubuntu-latest'
 strategy:
   matrix:
-    Python27:
-      python.version: '2.7'
-      tox.env: 'py27-django111'
     Python35:
       python.version: '3.5'
-      tox.env: 'py35-django{111,21,22}'
+      tox.env: 'py35-django{21,22}'
     Python36:
       python.version: '3.6'
-      tox.env: 'py36-django{111,21,22}'
+      tox.env: 'py36-django{21,22}'
     Python37:
       python.version: '3.7'
-      tox.env: 'py37-django{111,21,22}'
-    pypy2:
-      python.version: 'pypy2'
-      tox.env: 'pypy2-django111'
+      tox.env: 'py37-django{21,22}'
     pypy3:
       python.version: 'pypy3'
-      tox.env: 'pypy3-django{111,21,22}'
+      tox.env: 'pypy3-django{21,22}'
   maxParallel: 10
 
 steps:
