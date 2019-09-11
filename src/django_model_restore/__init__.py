@@ -39,3 +39,6 @@ on the same SQL table via other django models respect the filter on the deleted
 field. That is the issue this library aims to solve
 """
 __package_name__ = "django-model-restore"
+default_app_config = "django_model_restore.apps.DjangoModelRestoreConfig"
+
+from .decorators import soft_deletable
