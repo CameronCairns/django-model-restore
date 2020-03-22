@@ -1,2 +1,5 @@
 django
 python-language-server[all]
+black
+isort
+tox
